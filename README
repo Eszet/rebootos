@@ -1,0 +1,16 @@
+ReBootOS v2 Readme
+$Id: README 49 2006-09-20 22:03:44Z jlieder $
+
+Preprocessor Symbols
+
+SERIAL_OUTPUT
+Activates serial output via print() in addition to
+normal console output.
+
+DEBUG_OUTPUT
+Activates supplementary debugging output such as the
+IRQ counter in the upper right corner of the screen.
+
+SOFTWARE_CURSOR
+Activates the emulated cursor (software) updated by
+the timer IRQ.
